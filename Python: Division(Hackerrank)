@@ -1,0 +1,17 @@
+Input:
+from __future__ import division
+a = int(input())
+b = int(input())
+
+intdiv = a//b
+floatdiv = a/b
+
+print("{0}\n{1}".format(intdiv,floatdiv))
+
+Output:
+C:/Users/DEBAJYOTI BHATTACHARYA/AppData/Local/Programs/Python/Python38-32/Python-3.py
+4
+3
+
+1
+3
