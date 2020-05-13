@@ -1,0 +1,9 @@
+Input:
+def is_leap(year):
+    return year % 4 == 0 and not (year % 100 == 0 and year % 400 != 0)
+    
+    return leap
+
+Output:
+1990
+False
