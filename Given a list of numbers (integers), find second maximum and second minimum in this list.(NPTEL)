@@ -1,0 +1,23 @@
+INPUT :
+
+a = [int(x) for x in input().split()]
+
+a.sort()
+length= len(a)
+
+print(a[length-2],a[1])
+
+OUTPUT :
+10 11 100 200 300 34
+200 11
+ 
+10 10
+10 10
+ 
+ 1 1 1 1
+ 1 1
+ 
+ 1 2 3 4 5 6 7 8
+ 7 2
+ 
+ 
