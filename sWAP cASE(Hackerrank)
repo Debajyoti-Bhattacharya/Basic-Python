@@ -1,4 +1,4 @@
-Input:
+INPUT :
 def swap_case(s):
     ls = list(s)
     for i in range(len(ls)):
@@ -8,14 +8,9 @@ def swap_case(s):
         elif ls[i]==tmp.lower():
             ls[i]=tmp.upper()
     str1=""
-    return(str1.join(ls))
-    
-    
-    
-    
-Output:
+    return(str1.join(ls))    
 
-
+OUTPUT :
 Input (stdin)
 HackerRank.com presents "Pythonist 2".
 Expected Output
